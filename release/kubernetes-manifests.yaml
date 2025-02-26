@@ -284,7 +284,7 @@ spec:
                 - ALL
             privileged: false
             readOnlyRootFilesystem: true
-          image: saruizh/frontend:v0.10.2
+          image: saruizh/frontend-modificado:latest
           ports:
           - containerPort: 8080
           readinessProbe:
